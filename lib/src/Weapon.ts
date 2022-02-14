@@ -1,5 +1,5 @@
 import { RiotWeaponSkin } from './utils/Types'
-import skinLevels from '../data/skinLevels.json'
+import skinLevels from '../data/skinlevels.json'
 
 export default class Weapon {
   constructor() {}

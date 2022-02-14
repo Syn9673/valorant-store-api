@@ -9,9 +9,9 @@
     "typescript": "^4.5.5"
   },
   "name": "valorant-store-api",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A simple API for nodejs/typescript to check your valorant store.",
-  "main": "./dist/lib/index.js",
+  "main": "./dist/index.js",
   "directories": {
     "lib": "lib"
   },
