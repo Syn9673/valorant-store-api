@@ -13,8 +13,8 @@ const client = new Client({
 
 client.login()
 .then(async () => {
-  console.log(await client.getStore()) // get our store data
-  console.log(await client.getStore({ mode: 'bundle' })) // get the featured bundle
+  console.log(await client.player.getStore()) // get our store data
+  console.log(await client.player.getStore({ mode: 'bundle' })) // get the featured bundle
 })
 ```
 

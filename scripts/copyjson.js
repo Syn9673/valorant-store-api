@@ -14,8 +14,6 @@ const dir = `${process.cwd()}/dist/data`
 if (!existsSync(dir))
   mkdirSync(dir, { recursive: true })
 
-console.log(dir)
-
 writeFileSync(
   `${dir}/skinlevels.json`,
   skinLevels,
